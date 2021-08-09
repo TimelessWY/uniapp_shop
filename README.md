@@ -1,7 +1,6 @@
 # uniapp_shop
 这是一个uniapp的商城项目，基本功能都有，下载后放到HBuilderX编辑器里可直接运行
-路由：
-
+<h1>路由：</h1>
 首页：index               
 商品：commodity      
 店铺：shop         
