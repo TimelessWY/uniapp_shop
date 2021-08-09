@@ -1,0 +1,430 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#1890FF",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		}
+
+		, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/regter/regter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/commodity/commodity",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/shoppingCat/shoppingCat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/mapsele/mapsele",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/commodityDetils/commodityDetils",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/shopDetils/shopDetils",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}
+
+		, {
+			"path": "pages/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/confirmOrder/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+
+		}, {
+			"path": "pages/newaddress/newaddress",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+				
+			}
+
+		}
+	    ,{
+            "path" : "pages/editaddress/editaddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/listaddress/listaddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderDetils/orderDetils",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/systemSet/systemSet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/myintegral/myintegral",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopRevenue/shopRevenue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/directBonts/directBonts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mySubordinate/mySubordinate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/textare/textare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/openShop/openShop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/sysInfo/sysInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/cancatus/cancatus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/modeMobile/modeMobile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/modePersonInfo/modePersonInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/modePassword/modePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/forgetPassword/forgetPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+            }
+            
+        },
+		{
+		    "path" : "pages/testHead/testHead",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+		    }
+		    
+		}
+    ],
+	"tabBar": {
+		"selectedColor": "#79D5AD",
+		"color": "#999999",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"height": "0px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": " "
+		}, {
+			"pagePath": "pages/commodity/commodity",
+			"text": " "
+		}, {
+			"pagePath": "pages/shop/shop",
+			"text": " "
+		}, {
+			"pagePath": "pages/shoppingCat/shoppingCat",
+			"text": " "
+		}, {
+			"pagePath": "pages/my/my",
+			"text": " "
+		}]
+	},
+	"globalStyle": {
+		"scrollIndicator": "none", // 不显示滚动条  
+		"app-plus": {
+			"scrollIndicator": "none" // 在APP平台都不显示滚动条  
+		},
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
